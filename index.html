@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <i class="bi bi-list" onclick="openmenu()"></i>
+                <h1 class="logo">PortFolio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="bi bi-x" onclick="closemenu()"></i>
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <!-- <p>UI/UX Designer</p>
+                <h1>Hi, I'm Aarush Kumar From India</h1> -->
+            </div>
+        </div>
+    </div>
+
+<!-- ------------about-------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/images/car3.jpg"  alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum expedita rerum autem sed! Provident nihil quis voluptatem animi tempora architecto libero earum expedita fugit, culpa perferendis accusamus? Totam, deserunt unde.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>20211 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2019 - 2021</span><br>Web app Development</li>
+                        <li><span>2017 - 2018</span><br>Building Android/iOS apps</li>
+                        <li><span>2017 - 2018</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2016</span><br>BMA banglore </li>
+                        <li><span>2024</span><br>BBA ISM banglore</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------serices----------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="bi bi-code-slash"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae et libero minima consequatur? Sapiente numquam, possimus delectus recusandae aliquam vitae aliquid nostrum excepturi autem. Molestiae culpa totam cumque optio.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="bi bi-crop"></i>
+                <h2>UX/UI Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae et libero minima consequatur? Sapiente numquam, possimus delectus recusandae aliquam vitae aliquid nostrum excepturi autem. Molestiae culpa totam cumque optio.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="bi bi-app-indicator"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae et libero minima consequatur? Sapiente numquam, possimus delectus recusandae aliquam vitae aliquid nostrum excepturi autem. Molestiae culpa totam cumque optio.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- --------PortFolio------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/car4.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quis libero dignissimos delectus iure amet labore tempore iste quasi molestias aut adipisci, cum temporibus eum quo impedit laboriosam eius quam.</p>
+                    <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/car6.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quis libero dignissimos delectus iure amet labore tempore iste quasi molestias aut adipisci, cum temporibus eum quo impedit laboriosam eius quam.</p>
+                    <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/car3.jpg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quis libero dignissimos delectus iure amet labore tempore iste quasi molestias aut adipisci, cum temporibus eum quo impedit laboriosam eius quam.</p>
+                    <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- --------contact------- -->
+ 
+<div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="bi bi-send-fill"></i> contact@gmail.com</p>
+            <p> <i class="bi bi-telephone-fill"></i>  9238329084</p>
+            <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+            <a href="/images/my-cv.pdf" class="btn btn-2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                <button type="submit" class="btn btn-2">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="bi bi-c-circle"></i> Aarush. Made with by Easy Tutorials</p>
+    </div>
+</div>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-links");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-links");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+    var sidemen = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemen.style.left = "0px";
+    }
+
+    function closemenu(){
+        sidemen.style.left = "-180px";
+    }
+
+</script>
+
+</body>
+</html>
